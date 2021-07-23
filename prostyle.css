@@ -1,0 +1,140 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.head{
+    width: 100%;
+    height: 80px;
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    text-align: center;
+    line-height: 80px;
+}
+.head h1:hover{
+    color: white;
+    box-shadow: 10px 10px 10px black;
+    transition: 0.6s ease;
+}
+
+.heading {
+    width: 100%;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.pro-name{
+    width: 100%;
+    height: 300px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.names{
+    width: 300px;
+    height: 250px;
+    border: 2px solid grey;
+    padding: 20px;
+}
+.names p{
+    padding: 20px;
+}
+.names h4{
+    padding-top: 20px;
+}
+
+.products-name{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(22, 219, 55);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.first{
+    width: 100%;
+    background-color: rgb(22, 219, 55);
+    padding: 20px;
+}
+.products-names{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(189, 219, 22);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.second{
+    width: 100%;
+    background-color: rgb(189, 219, 22);
+    padding: 20px;
+}
+
+.products-Name{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(219, 22, 137);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.third{
+    width: 100%;
+    background-color: rgb(219, 22, 137);
+    padding: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(26, 226, 209);
+}
+
+
+@media screen and (max-width: 768px){
+    .head{
+        width: 100%;
+        height: 60px;
+        background-color: #00b712;
+        background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);;
+        text-align: center;
+        line-height: 80px;
+    }
+    .head h1:hover{
+        color: white;
+        box-shadow: 10px 10px 10px black;
+        transition: 0.6s ease;
+    }
+
+
+
+
+    .pro-name{
+        width: 100%;
+        height: auto;
+        background-color: aquamarine;
+        flex-wrap: wrap;
+    }
+    .names{
+        width: 250px;
+        height: 200px;
+        border: 2px solid grey;
+        padding: 20px;
+    }
+    .products-name{
+        width: 100%;
+        height: auto;
+        background-color: rgb(22, 219, 55);
+        flex-wrap: wrap;
+    }
+    .products-names{
+        width: 100%;
+        height: auto;
+        background-color: rgb(189, 219, 22);
+        flex-wrap: wrap;
+    }
+    .products-Name{
+        width: 100%;
+        height: auto;
+        background-color: rgb(219, 22, 137);
+        flex-wrap: wrap;
+    }
+}

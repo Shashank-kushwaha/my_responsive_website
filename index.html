@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <title>Brands</title>
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <div class="logo">
+            <img src="images.jpg">
+        </div>
+            <h2><pre>Power  |</pre></h2>
+            <div class="menu" id="menu-small">
+            <ul>
+            <li><a href="#Power">power</a><li>
+            <li><a href="products.html">products</a><li>
+            <li><a href="#Pricing">Pricing</a><li>
+            <li><a href="contactus.html">Contact us</a></li>
+            </ul>
+        </div>
+        <a href="#" id="iconbar" onclick="responsive_menu()"><i class="fa fa-bars"></i></a>
+        </div>
+
+
+        <div class="content" id="Power">
+            <h1>This is About Power</h1>
+            <p>In physics, power is the amount of energy transferred or converted per unit time. In the International System of Units, the unit of power is the watt, equal to one joule per second. In older works, power is sometimes called activity. Power is a scalar quantity The output power of a motor is the product of the torque that the motor generates and the angular velocity of its output shaft. The power involved in moving a ground vehicle is the product of the traction force on the wheels and the velocity of the vehicle. In classical mechanics, as quantified from a stationary frame of reference, the motive power of a jet-propelled vehicle is the product of the engine thrust and the velocity of the vehicle (note that by this definition, a propelled vehicle hovering at stationary elevation over a gravitational body, where the upward thrust exactly cancels the downward acceleration of gravity, the motive power is zero). The rate</p>
+        </div>
+        <div class="box" id="Pricing">
+            <div class="box1">
+                <img src="one.png">
+                <p>ONE is a global movement campaigning to end extreme poverty and preventable disease by 2030</p>
+            </div>
+            <div class="box2">
+                <img src="onecity.png">
+                <p>One City is located in Kukatpally on the KPHB - HITEC City main road with convenient access to the best of retail destinations, schools and hospitals. The project comprises 2 & 3 bedroom apartments spread across 5 towers that soar between 28 to 33 floors into the sky.</p>
+            </div>
+            <div class="box3">
+                <img src="nik.png">
+                <p>Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered near Beaverton, Oregon, in the Portland metropolitan area.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <img src="allin.jpg">
+                <p>Founded on April 18, 1988 and named in the loving memory of Late Shri Laxmi Narayan Maheshwari, father of four brothers Shri Govind, Shri Rajesh, Shri Naveen & Shri Brajesh Maheshwari, ALLEN has today become a synonym of SUCCESS.</p>
+            </div>
+            <div class="box2">
+                <img src="logos.jpg">
+                <p>A logo is a graphic mark, emblem, or symbol used to aid and promote public identification and recognition. It may be of an abstract or figurative design or include the text of the name it represents as in a wordmark.</p>
+            </div>
+        </div>
+        <div class="platform">
+            <h1>What is power platform</h1>
+            <div class="footer">
+                
+                <div class="link">
+                    <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Tickets</a></li>
+                    <li><a href="#">Boolings</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <ul>
+                <li><a href="#">Arials</a></li>
+                <li><a href="#">Nominals</a></li>
+                <li><a href="#">Sepred</a></li>
+                <li><a href="#">Strack</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <ul>
+            <li><a href="#">Nonvalitaikl</a></li>
+            <li><a href="#">Monetail</a></li>
+            <li><a href="#">Sirra</a></li>
+            <li><a href="#">Lipguard</a></li>
+        </ul>
+    </div>
+            </div>
+            <hr>
+            <p class="made">Crrated By MR Shashank &#169; 2021</p>
+        </div>
+    </div>
+
+
+    <script>
+        function responsive_menu(){
+            var e = document.getElementById("menu-small");
+            if(e.className === 'menu'){
+                e.className += " responsive";
+            }
+            else{
+                e.className = 'menu';
+            }
+        }
+    </script>
+</body>
+</html>

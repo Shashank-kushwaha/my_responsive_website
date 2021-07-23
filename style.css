@@ -1,0 +1,215 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.main{
+    width: 100%;
+}
+.head{
+    width: 100%;
+    height: auto;
+    background-color: #ffac81;
+background-image: linear-gradient(315deg, #ffac81 0%, #ff928b 74%);
+
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#iconbar{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+#iconbar:hover{
+    color: orange;
+}
+.logo img{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
+.head h2{
+    padding: 40px;
+}
+.head ul{
+    margin-top: 45px;
+    display: flex;
+    margin-left: 50px;
+    list-style-type: none;
+}
+.head a{
+    padding: 40px;
+    text-decoration: none;
+    color: black;
+}
+.head a:hover{
+    color: green;
+    transition: 0.6s ease;
+}
+
+.content{
+    width: 100%;
+    height: 500px;
+    background-color: #FFD523;
+    padding: 150px;
+}
+.content p{
+    font-family: Agency FB;
+    font-size: 20px;
+}
+.content h1{
+    padding: 20px;
+    text-align: center;
+}
+
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 30px;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+}
+.box p{
+    padding: 30px;
+}
+.platform{
+    width: 100%;
+    height: auto;
+    background-color: lightgrey;
+    padding: 20px;
+}
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.link ul li{
+    margin: 30%; 
+    list-style-type: none; 
+}
+.link ul li a{
+    color: black;
+    text-decoration: none;
+}
+.made{
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*bog landscap tablets*/
+@media (min-width: 1200px){
+}
+
+/* tablet landscap resolution laptop ans desktop*/
+@media(max-width: 990px){
+    .logo img{
+        width: 100%;
+        height: 80px;
+    border-radius: 10px;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu{
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    #iconbar{
+        opacity: 1;
+        visibility: visible;
+    }
+    .menu.responsive{
+        width: 100%!important;
+        height: 80vh!important;
+        background-color: black;
+        position: relative;
+        z-index: 11111;
+    }
+    .menu.responsive ul{
+        opacity: 1;
+        visibility: visible;
+    }
+    .menu.responsive ul li{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+/*smart fon android*/
+@media (max-width: 768px){
+    .content{
+        width: 100%;
+        height: auto;
+        background-color: #FFD523;
+    }
+    .content p{
+        font-family: Agency FB;
+    }
+    .box{
+        width: 100%;
+        /* display: flex; */
+        flex-wrap: wrap;
+        padding: 10px;
+        background-color: #71EFA3;
+    }
+    .box img{
+        width: 70px;
+        height: 70px;
+    }
+    .box p{
+        padding: 30px;
+    }
+    .box img{
+        padding: 10px;
+        border-radius: 20px;
+    }
+}
+/*smart fon android*/
+@media (max-width: 400px){
+    .head{
+        background-color: #00b712;
+        background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+    }
+    .logo img{
+        width: 80%;
+        height: 60px;
+    border-radius: 10px;
+    padding: 5px;
+    }
+    .box{
+        background-color: #f8ceec;
+background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+
+    }
+
+    .content{
+        width: auto;
+        height: auto;
+        background-color: #FFD523;
+        padding: 20px;
+    }
+    .content p{
+        font-family: Agency FB;
+        font-size: 20px;
+    }
+    .content h1{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .link ul li{
+        padding: 5px;
+        margin: 0px;
+    }
+}
+
+/*small smart fon*/
+@media (max-width: 400px){
+
+}
+
